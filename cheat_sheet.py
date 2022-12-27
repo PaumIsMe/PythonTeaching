@@ -80,6 +80,21 @@ print(list(my_range)) # Ignore the 'list()' in here, just pretend we're printing
 
 
 
+# <----- FUNCTIONS ------>
+# Makes code re-usable, more readable, allows partitioning of workload
+
+#Writing a function
+def function_name(function_input1, function_input2, function_input3, etc):
+    # Write code here to process inputs
+    result_the_function_got = 100000
+    return result_the_function_got
+
+#Calling a function
+answer = function_name(0, 16, 800)
+
+
+
+
 
 # <----- EXAMPLES ----->
 
@@ -106,3 +121,13 @@ for i in range(len(arr)):
     arr[i] = 0
 
 print(arr)
+
+# Function to sum all elements in array
+def sum_array(arr):
+
+    sum = 0
+
+    for num in arr:
+        sum = sum + num
+    
+    return sum
