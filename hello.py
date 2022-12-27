@@ -1,17 +1,6 @@
-arr = [6, 2, 3, 5]
+x = range(0)
 
-# Function to sum every element
-def sum_array(arr):
+# range(10) -> goes from 0 (inclusive) to 10 (exclusive)
 
-    sum = 0
 
-    for num in arr:
-        sum = sum + num
-    
-    return sum
-
-# This is not
-
-print("Hello") # print is the function name, "Hello" is the input
-sum_of_array = sum_array(arr)
-print(sum_of_array)
+print(list(x)) # pretend this is print x

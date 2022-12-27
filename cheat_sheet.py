@@ -9,7 +9,7 @@ t = q - 2
 u = 9
 u = u + 1
 
-# Functions [We will learn later...for now think of it as magic code that does something for you]
+# Functions
 # Ex:
 
 print("Hewwo")
@@ -29,6 +29,17 @@ for i in range(10):
 while (q < 10):
     print(q)
     q = q + 1
+
+
+
+
+# <----- FUNCTIONS ---->
+
+# // -> devides and rounds down
+x = 77 // 10 # results in 7
+
+# % -> devides and takes the remainder
+x = 9 % 2 # results in 1
 
 
 
@@ -56,7 +67,7 @@ arr.append("uwu")
 # Remove an element from the array (this removes the first instance of this element)
 
 arr.remove(33) #This removes the first instance of element 33
-del arr[0] #This removes the first element (index 0)
+arr.pop(0) #This removes the first element (index 0)
 
 
 
@@ -90,10 +101,12 @@ def function_name(function_input1, function_input2, function_input3, etc):
     return result_the_function_got
 
 #Calling a function
-answer = function_name(0, 16, 800)
+answer = function_name(0, 16, 800, "Harry Potter")
 
+print("Hello world") # 'print' is the function name that you're calling, "Hello world" is the input to the function
 
-
+# Write a function called 'first_is_the_worst' that takes in an array, 
+# and returns that array without the first element
 
 
 # <----- EXAMPLES ----->
