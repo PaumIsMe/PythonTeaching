@@ -33,14 +33,13 @@ while (q < 10):
 
 
 
-# <----- FUNCTIONS ---->
+# <----- OPERATIONS ---->
 
 # // -> devides and rounds down
 x = 77 // 10 # results in 7
 
 # % -> devides and takes the remainder
 x = 9 % 2 # results in 1
-
 
 
 
@@ -66,8 +65,28 @@ arr.append("uwu")
 
 # Remove an element from the array (this removes the first instance of this element)
 
-arr.remove(33) #This removes the first instance of element 33
+arr.remove("cute") #This removes the first instance of the word 'cute'
 arr.pop(0) #This removes the first element (index 0)
+
+
+
+
+# <----- RANGES ----->
+
+# 1-input Range
+# -> goes from the 0 to the number (exclusive)
+x = range(10) # -> [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+# 2-input Range
+# -> goes from the first number(inclusive) to the last number (exclusive)
+x = range(5, 10) # -> [5, 6, 7, 8, 9]
+
+# 3-input Range
+# -> goes from the first number (inclusive) to the second number (exclusive)
+x = range(4, 38, 10) # -> [4, 14, 24, 34]
+
+# Range that goes from 0 to 10, every other element
+x = range(0, 10, 2)
 
 
 
@@ -92,6 +111,7 @@ print(list(my_range)) # Ignore the 'list()' in here, just pretend we're printing
 
 
 # <----- FUNCTIONS ------>
+
 # Makes code re-usable, more readable, allows partitioning of workload
 
 #Writing a function
@@ -105,8 +125,7 @@ answer = function_name(0, 16, 800, "Harry Potter")
 
 print("Hello world") # 'print' is the function name that you're calling, "Hello world" is the input to the function
 
-# Write a function called 'first_is_the_worst' that takes in an array, 
-# and returns that array without the first element
+
 
 
 # <----- EXAMPLES ----->
