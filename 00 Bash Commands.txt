@@ -1,0 +1,25 @@
+ls (-l)                         lists contents of folder (-l lists extra details about files)
+cd (..) (../..)                 Moves to another folder (.. goes back 1/2/3/etc.)
+touch (file)                    Creates file
+    ex: touch 'File.txt' creates File.txt in current folder
+rm (file)                       Deletes file
+mkdir (directory name)          Creates directory
+rm (-rf)                        Deletes directory and all contents
+pwd                             Prints working directory (shows what folder you're in)
+mv (file) (directory)           Move files
+    ex: mv 'File.txt' '/e/Python' moves File.txt to folder /e/Python
+cp (file) (directory)			Copies files
+clear                           Clears the terminal (for when it's a mess to look at)
+code (file)                     Opens file with VS Code
+python (file)                   Opens file with python
+
+Autocomplete with [Tab]
+[Ctrl] + [C]                    Cancels out of all of the things
+[Up] or [Down]                  Go through latest commands
+
+git status                      Shows status of github stuff
+git add	(directory/file)        adds a file to github
+git commit -m  "..."            commits files with message "..."
+git push                        publishes files online
+git pull                        opposite of push
+git checkout -b	"..."			creates a new branch to work in
