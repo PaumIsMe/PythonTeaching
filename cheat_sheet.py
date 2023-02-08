@@ -68,6 +68,17 @@ arr.append("uwu")
 arr.remove("cute") #This removes the first instance of the word 'cute'
 arr.pop(0) #This removes the first element (index 0)
 
+# Enumerate - a short hand for going through every element in a for loop as well as it's index
+
+for i in range(0, len(arr)):
+    my_element = arr[i]
+    print("This list contains ", my_element, " at position ", i)
+
+#This is equivalent to
+
+for i, my_element in enumerate(arr):
+    print("This list contains ", my_element, " at position ", i)
+
 
 
 

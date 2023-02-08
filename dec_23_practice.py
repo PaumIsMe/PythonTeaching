@@ -69,8 +69,10 @@ def concat_double_array(arr : list):
     for a in arr:
         for elem in a:
             new_arr.append(elem)
+        new_arr.append(0)
 
-    return new_arr
+    print(new_arr)
+    return new_arr[0:-1]
 
 # These assert statements are making sure your functions work as directed. Once you don't have any assertion errors, you (probably) have completed all of the problems
 assert [1, 2] == [1, 2], "Logic is dead"
@@ -81,4 +83,4 @@ assert remove_even([0, 6, 2, 5, 9, 10, 2, 2]) == [6, 5, 10, 2], "Remove Even not
 assert make_user_comply() == 'Yes', "Make user comply not working"
 assert arr_with_largest_product([[3, 6, 2], [1, 1, 100], [10, 11]]) == [10, 11], "Array with largest product not working"
 assert remove_shortest([[3, 6, 2], [1, 1, 100], [10, 11]]) == [[3, 6, 2], [1, 1, 100]], "Remove shortest not working"
-assert concat_double_array([[3, 6, 2], [1, 1, 100], [10, 11]]) == [3, 6, 2, 1, 1, 100, 10, 11], "Concat double array not working"
+assert concat_double_array([[3, 6, 2], [1, 1, 100], [10, 11]]) == [3, 6, 2, 0, 1, 1, 100, 0, 10, 11], "Concat double array not working"
