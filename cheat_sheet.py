@@ -88,6 +88,10 @@ my_dictionary = {"Bob": 13, "Lisa": 72, "Jerry": 54, "John": 54}
 # Sets are like dictionaries, but the entries don't map to anything. Useful for checking if something is in a set
 my_set = {"Bob", "Lisa", "Jerry"}
 
+# Add and remove from a set
+my_set.add("Larry")
+my_set.remove("Larry")
+
 # Adding an element to a dictionary
 my_dictionary["New Student"] = 99
 
