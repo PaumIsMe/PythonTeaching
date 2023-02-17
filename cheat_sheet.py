@@ -80,6 +80,30 @@ for i, my_element in enumerate(arr):
     print("This list contains ", my_element, " at position ", i)
 
 
+# <---- DICTIONARY ---->
+
+# Used for storing unordered data where we need to find a specific element, and/or mapping elements to values
+my_dictionary = {"Bob": 13, "Lisa": 72, "Jerry": 54, "John": 54}
+
+# Sets are like dictionaries, but the entries don't map to anything. Useful for checking if something is in a set
+my_set = {"Bob", "Lisa", "Jerry"}
+
+# Adding an element to a dictionary
+my_dictionary["New Student"] = 99
+
+# Removing an element from a dictionary
+my_dictionary.pop("Bob")
+
+# Changing an element in a dictionary
+my_dictionary["Lisa"] = 54
+
+# Getting a list of all the keys/values from a dictionary
+key_list = list(my_dictionary.keys())
+value_list = list(my_dictionary.values())
+
+# Check to see if a dictionary has an element
+new_student_test = "New Student" in my_dictionary
+print("Do I have a new student? ", new_student_test)
 
 
 # <----- RANGES ----->
